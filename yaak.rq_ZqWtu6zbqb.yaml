@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_ZqWtu6zbqb
+createdAt: 2026-03-05T02:56:54.285927
+updatedAt: 2026-03-05T02:56:54.285929
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns number of trips by weekdays and weekends from origin to destination bus stops. Update Freq: By 10th of every month.'
+headers: []
+method: GET
+name: Passenger Volume by OD Bus Stops
+sortPriority: 0.0
+url: ${[ base_url ]}/PV/ODBus
+urlParameters:
+- enabled: false
+  name: Date
+  value: ''
+  id: null

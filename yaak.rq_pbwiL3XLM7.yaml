@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_pbwiL3XLM7
+createdAt: 2026-03-05T02:57:02.248654
+updatedAt: 2026-03-05T02:57:02.248655
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns planned new/updated bus routes information. Important: Data to be released only ON/AFTER the Effective Date. Update Freq: Ad hoc.'
+headers: []
+method: GET
+name: Planned Bus Routes
+sortPriority: 0.0
+url: ${[ base_url ]}/PlannedBusRoutes
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

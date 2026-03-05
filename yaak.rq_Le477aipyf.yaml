@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_Le477aipyf
+createdAt: 2026-03-05T03:10:35.547615
+updatedAt: 2026-03-05T03:10:35.547616
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_SsiiHrRsr7
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns all electric vehicle charging points in Singapore and their availabilities in a single file. Returns a download link (expires in 5 min). Update Freq: 5 minutes.'
+headers: []
+method: GET
+name: EV Charging Points Batch
+sortPriority: 0.0
+url: ${[ base_url ]}/EVCBatch
+urlParameters: []

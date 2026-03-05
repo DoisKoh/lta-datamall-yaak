@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_iLUfuWWCxu
+createdAt: 2026-03-05T02:59:48.883566
+updatedAt: 2026-03-05T02:59:48.883571
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Information on planned road openings. Update Freq: 24 hours.'
+headers: []
+method: GET
+name: Planned Road Openings
+sortPriority: 0.0
+url: ${[ base_url ]}/RoadOpenings
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

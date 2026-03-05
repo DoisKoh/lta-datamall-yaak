@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_LRQnRoYgk6
+createdAt: 2026-03-05T02:57:00.549833
+updatedAt: 2026-03-05T02:57:00.549838
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns real-time MRT/LRT station crowdedness level of a particular train network line. Update Freq: 10 min. TrainLine values: CCL, CEL, CGL, DTL, EWL, NEL, NSL, BPL, SLRT, PLRT, TEL.'
+headers: []
+method: GET
+name: Station Crowd Density Real Time
+sortPriority: 0.0
+url: ${[ base_url ]}/PCDRealTime
+urlParameters:
+- enabled: true
+  name: TrainLine
+  value: EWL
+  id: null

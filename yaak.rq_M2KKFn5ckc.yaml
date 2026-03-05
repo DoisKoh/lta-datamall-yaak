@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_M2KKFn5ckc
+createdAt: 2026-03-05T02:59:52.527642
+updatedAt: 2026-03-05T02:59:52.527644
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns current traffic speeds on expressways and arterial roads, expressed in speed bands (1-8). Update Freq: 5 minutes.'
+headers: []
+method: GET
+name: Traffic Speed Bands
+sortPriority: 0.0
+url: ${[ base_url ]}/v4/TrafficSpeedBands
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

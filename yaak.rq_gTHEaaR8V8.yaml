@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_gTHEaaR8V8
+createdAt: 2026-03-05T02:56:58.814910
+updatedAt: 2026-03-05T02:56:58.814911
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns detailed information on train service unavailability during scheduled operating hours, such as affected line and stations. Update Freq: Ad hoc.'
+headers: []
+method: GET
+name: Train Service Alerts
+sortPriority: 0.0
+url: ${[ base_url ]}/TrainServiceAlerts
+urlParameters: []

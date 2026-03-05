@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_PZiCyhWD7n
+createdAt: 2026-03-05T03:10:33.836847
+updatedAt: 2026-03-05T03:10:33.836854
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_T3cXuFxaTw
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns the SHP files of the requested geospatial layer. ID parameter is case sensitive, omit spaces. Refer to Annex E for layer IDs. Update Freq: Ad hoc.'
+headers: []
+method: GET
+name: Geospatial Whole Island
+sortPriority: 0.0
+url: ${[ base_url ]}/GeospatialWholeIsland
+urlParameters:
+- enabled: true
+  name: ID
+  value: ArrowMarking
+  id: null

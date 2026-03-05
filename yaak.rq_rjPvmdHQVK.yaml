@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_rjPvmdHQVK
+createdAt: 2026-03-05T02:56:56.159776
+updatedAt: 2026-03-05T02:56:56.159777
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns tap in and tap out passenger volume by weekdays and weekends for individual train station. Update Freq: By 10th of every month.'
+headers: []
+method: GET
+name: Passenger Volume by Train Stations
+sortPriority: 0.0
+url: ${[ base_url ]}/PV/Train
+urlParameters:
+- enabled: false
+  name: Date
+  value: ''
+  id: null

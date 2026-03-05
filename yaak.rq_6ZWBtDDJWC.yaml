@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_6ZWBtDDJWC
+createdAt: 2026-03-05T02:56:25.514264
+updatedAt: 2026-03-05T02:56:25.514266
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns detailed service information for all buses currently in operation, including: first stop, last stop, peak/offpeak frequency of dispatch. Update Freq: Ad hoc. Returns 500 records per call, use $skip to paginate.'
+headers: []
+method: GET
+name: Bus Services
+sortPriority: 0.0
+url: ${[ base_url ]}/BusServices
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

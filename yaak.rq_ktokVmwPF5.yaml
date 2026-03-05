@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_ktokVmwPF5
+createdAt: 2026-03-05T02:56:57.851637
+updatedAt: 2026-03-05T02:56:57.851638
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns detailed information of Taxi stands, such as location and whether it is barrier free. Update Freq: Monthly.'
+headers: []
+method: GET
+name: Taxi Stands
+sortPriority: 0.0
+url: ${[ base_url ]}/TaxiStands
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_YZTPzmRfDX
+createdAt: 2026-03-05T02:59:47.912485
+updatedAt: 2026-03-05T02:59:47.912486
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns alerts of traffic lights that are currently faulty, or currently undergoing scheduled maintenance. Update Freq: 2 minutes.'
+headers: []
+method: GET
+name: Faulty Traffic Lights
+sortPriority: 0.0
+url: ${[ base_url ]}/FaultyTrafficLights
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

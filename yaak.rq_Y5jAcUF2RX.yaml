@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_Y5jAcUF2RX
+createdAt: 2026-03-05T02:59:46.850131
+updatedAt: 2026-03-05T02:59:46.850133
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns estimated travel times of expressways (in segments). Update Freq: 5 minutes.'
+headers: []
+method: GET
+name: Estimated Travel Times
+sortPriority: 0.0
+url: ${[ base_url ]}/EstTravelTimes
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

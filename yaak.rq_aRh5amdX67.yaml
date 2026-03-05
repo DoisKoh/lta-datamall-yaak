@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_aRh5amdX67
+createdAt: 2026-03-05T02:59:50.674587
+updatedAt: 2026-03-05T02:59:50.674588
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns links to images of live traffic conditions along expressways and Woodlands & Tuas Checkpoints. Image links valid for 5 mins only. Update Freq: 1-5 minutes.'
+headers: []
+method: GET
+name: Traffic Images
+sortPriority: 0.0
+url: ${[ base_url ]}/Traffic-Imagesv2
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

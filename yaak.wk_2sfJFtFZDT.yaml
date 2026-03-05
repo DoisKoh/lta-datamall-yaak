@@ -1,0 +1,19 @@
+type: workspace
+model: workspace
+id: wk_2sfJFtFZDT
+createdAt: 2026-03-05T02:15:47.337098
+updatedAt: 2026-03-05T03:13:05.499082
+authentication: {}
+authenticationType: null
+description: ''
+headers:
+- enabled: true
+  name: AccountKey
+  value: ${[ AccountKey ]}
+  id: null
+name: LTA DataMall
+encryptionKeyChallenge: eUE0azNuQwEnTW8W8SbIlx6HcY41cpbdnlbsGd0qF8sdaU2KPQj5S1W9UrinhBb47xCT+RwFIJl7+hXhrT5OQBzr3Sf6G47OnHBi7mX6EUEKdNk3pvgU/J+wsM4mVRVuJlQ=
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
+settingDnsOverrides: []

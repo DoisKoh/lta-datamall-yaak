@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_ATJFBoJ6zu
+createdAt: 2026-03-05T03:10:32.926181
+updatedAt: 2026-03-05T03:10:32.926338
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_2xdSv9MRnL
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns bicycle parking locations within a radius. Default radius is 0.5km. Update Freq: Monthly.'
+headers: []
+method: GET
+name: Bicycle Parking
+sortPriority: 0.0
+url: ${[ base_url ]}/BicycleParkingv2
+urlParameters:
+- enabled: true
+  name: Lat
+  value: '1.364897'
+  id: null
+- enabled: true
+  name: Long
+  value: '103.766094'
+  id: null
+- enabled: false
+  name: Dist
+  value: '0.5'
+  id: null

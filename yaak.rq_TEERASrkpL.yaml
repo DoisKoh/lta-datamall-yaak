@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_TEERASrkpL
+createdAt: 2026-03-05T02:59:54.542018
+updatedAt: 2026-03-05T02:59:54.542019
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns hourly average traffic flow, taken from a representative month of every quarter during 0700-0900 hours. Returns a download link (expires in 5 min). Update Freq: Quarterly.'
+headers: []
+method: GET
+name: Traffic Flow
+sortPriority: 0.0
+url: ${[ base_url ]}/TrafficFlow
+urlParameters: []

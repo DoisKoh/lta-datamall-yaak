@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_YPDVQ4iTQu
+createdAt: 2026-03-05T02:59:55.742556
+updatedAt: 2026-03-05T02:59:55.742557
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns flood alert information across Singapore, provided by PUB. Update Freq: 3 minutes.'
+headers: []
+method: GET
+name: Flood Alerts
+sortPriority: 0.0
+url: ${[ base_url ]}/PubFloodAlerts
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

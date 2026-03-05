@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_GaUkbhfd5g
+createdAt: 2026-03-05T02:59:49.816772
+updatedAt: 2026-03-05T02:59:49.816773
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Information on approved road works to be carried out/being carried out. Update Freq: 24 hours.'
+headers: []
+method: GET
+name: Approved Road Works
+sortPriority: 0.0
+url: ${[ base_url ]}/RoadWorks
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

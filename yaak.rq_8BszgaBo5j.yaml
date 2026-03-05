@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_8BszgaBo5j
+createdAt: 2026-03-05T02:59:53.615910
+updatedAt: 2026-03-05T02:59:53.615912
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns traffic advisories (via variable message services) concerning current traffic conditions displayed on EMAS signboards along expressways and arterial roads. Update Freq: 2 minutes.'
+headers: []
+method: GET
+name: VMS / EMAS
+sortPriority: 0.0
+url: ${[ base_url ]}/VMS
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_X5uAPcwotf
+createdAt: 2026-03-05T02:56:24.614574
+updatedAt: 2026-03-05T02:56:24.614576
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns real-time Bus Arrival information of Bus Services at a queried Bus Stop, including Est. Arrival Time, Est. Current Location, Est. Current Load. Update Freq: 20 seconds.'
+headers: []
+method: GET
+name: Bus Arrival
+sortPriority: 0.0
+url: ${[ base_url ]}/v3/BusArrival
+urlParameters:
+- enabled: true
+  name: BusStopCode
+  value: '83139'
+  id: null
+- enabled: false
+  name: ServiceNo
+  value: ''
+  id: null

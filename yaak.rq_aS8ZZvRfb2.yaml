@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_aS8ZZvRfb2
+createdAt: 2026-03-05T02:59:51.470304
+updatedAt: 2026-03-05T02:59:51.470305
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns incidents currently happening on the roads, such as Accidents, Vehicle Breakdowns, Road Blocks, Traffic Diversions etc. Update Freq: 2 minutes.'
+headers: []
+method: GET
+name: Traffic Incidents
+sortPriority: 0.0
+url: ${[ base_url ]}/TrafficIncidents
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

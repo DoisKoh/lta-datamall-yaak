@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_rBCC3huoMc
+createdAt: 2026-03-05T02:57:01.412616
+updatedAt: 2026-03-05T02:57:01.412618
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns forecasted MRT/LRT station crowdedness level of a particular train network line at 30 min interval. Update Freq: 24 hours. TrainLine values: CCL, CEL, CGL, DTL, EWL, NEL, NSL, BPL, SLRT, PLRT, TEL.'
+headers: []
+method: GET
+name: Station Crowd Density Forecast
+sortPriority: 0.0
+url: ${[ base_url ]}/PCDForecast
+urlParameters:
+- enabled: true
+  name: TrainLine
+  value: NSL
+  id: null

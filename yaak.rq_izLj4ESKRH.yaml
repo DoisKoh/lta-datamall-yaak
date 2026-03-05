@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_izLj4ESKRH
+createdAt: 2026-03-05T02:56:26.495132
+updatedAt: 2026-03-05T02:56:26.495134
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns detailed route information for all services currently in operation, including: all bus stops along each route, first/last bus timings for each stop. Update Freq: Ad hoc. Returns 500 records per call, use $skip to paginate.'
+headers: []
+method: GET
+name: Bus Routes
+sortPriority: 0.0
+url: ${[ base_url ]}/BusRoutes
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

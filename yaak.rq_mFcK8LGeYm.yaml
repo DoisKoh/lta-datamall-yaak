@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_mFcK8LGeYm
+createdAt: 2026-03-05T02:56:56.945453
+updatedAt: 2026-03-05T02:56:56.945455
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns location coordinates of all Taxis that are currently available for hire. Does not include Hired or Busy Taxis. Update Freq: 1 min. Returns 500 records per call.'
+headers: []
+method: GET
+name: Taxi Availability
+sortPriority: 0.0
+url: ${[ base_url ]}/Taxi-Availability
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_hmtwGqUWnZ
+createdAt: 2026-03-05T02:56:27.289424
+updatedAt: 2026-03-05T02:56:27.289425
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns detailed information for all bus stops currently being serviced by buses, including: Bus Stop Code, location coordinates. Update Freq: Ad hoc. Returns 500 records per call, use $skip to paginate.'
+headers: []
+method: GET
+name: Bus Stops
+sortPriority: 0.0
+url: ${[ base_url ]}/BusStops
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null

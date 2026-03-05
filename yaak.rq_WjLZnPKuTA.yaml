@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_WjLZnPKuTA
+createdAt: 2026-03-05T02:56:28.188882
+updatedAt: 2026-03-05T02:56:28.188884
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3KEtMG4sMu
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns tap in and tap out passenger volume by weekdays and weekends for individual bus stop. Update Freq: By 10th of every month. Optional Date param (e.g. Date=201803) for up to last 3 months.'
+headers: []
+method: GET
+name: Passenger Volume by Bus Stops
+sortPriority: 0.0
+url: ${[ base_url ]}/PV/Bus
+urlParameters:
+- enabled: false
+  name: Date
+  value: ''
+  id: null

@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_TiAMTGsLTC
+createdAt: 2026-03-05T02:59:45.900347
+updatedAt: 2026-03-05T02:59:45.900486
+workspaceId: wk_2sfJFtFZDT
+folderId: fl_3AsnCWLpoB
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: 'Returns no. of available lots for HDB, LTA and URA carpark data. Update Freq: 1 minute. Returns 500 records per call.'
+headers: []
+method: GET
+name: Carpark Availability
+sortPriority: 0.0
+url: ${[ base_url ]}/CarParkAvailabilityv2
+urlParameters:
+- enabled: false
+  name: $skip
+  value: '0'
+  id: null
